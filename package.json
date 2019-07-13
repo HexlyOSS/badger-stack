@@ -1,0 +1,17 @@
+{
+  "name": "@hexly/badger",
+  "version": "0.0.1",
+  "description": "BadgerStack for Serverless",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "config": "^3.2.0"
+  }
+}
