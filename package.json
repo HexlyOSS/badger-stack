@@ -4,7 +4,8 @@
   "description": "BadgerStack for Serverless",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lib:publish": "npm --no-git-tag-version version patch && npm publish --access public"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "jest": "^24.8.0"
   },
   "dependencies": {
+    "@hexly/systemjs": "0.0.2",
     "apollo": "^2.16.0",
     "apollo-link-context": "^1.0.18",
     "apollo-link-http": "^1.5.15",
