@@ -1,6 +1,6 @@
 {
   "name": "@hexly/badger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "BadgerStack for Serverless",
   "main": "index.js",
   "scripts": {
@@ -13,16 +13,19 @@
     "jest": "^24.8.0"
   },
   "dependencies": {
+    "@apollo/federation": "^0.8.0",
+    "@apollo/gateway": "^0.8.1",
     "@hexly/systemjs": "0.0.2",
-    "apollo": "^2.16.0",
+    "apollo": "^2.16.3",
     "apollo-link-context": "^1.0.18",
     "apollo-link-http": "^1.5.15",
-    "apollo-server-core": "^2.7.0",
-    "apollo-server-lambda": "^2.7.0",
+    "apollo-server-core": "^2.8.1",
+    "apollo-server-lambda": "^2.8.1",
     "camelize": "^1.0.0",
     "config": "^3.2.0",
+    "graphql": "^14.4.2",
     "graphql-iso-date": "^3.6.1",
-    "graphql-middleware": "^3.0.2",
+    "graphql-middleware": "^3.0.3",
     "graphql-tools": "^4.0.5",
     "graphql-type-json": "^0.3.0",
     "lodash": "4.17.14",
