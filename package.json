@@ -28,7 +28,7 @@
     "graphql-middleware": "^3.0.3",
     "graphql-tools": "^4.0.5",
     "graphql-type-json": "^0.3.0",
-    "lodash": "4.17.14",
+    "lodash": "4.17.19",
     "middy": "0.20.0",
     "pg": "^7.11.0",
     "pg-sql2": "^2.2.3",
